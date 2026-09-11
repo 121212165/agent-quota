@@ -1,0 +1,15 @@
+{
+  "provider": "local",
+  "local_total": 100,
+  "currency": "CNY",
+  "default_pricing": {
+    "input_per_1m": 4.0,
+    "output_per_1m": 16.0
+  },
+  "model_pricing": {
+    "glm-4.6": { "input_per_1m": 4.0, "output_per_1m": 16.0 },
+    "glm-4.5-air": { "input_per_1m": 0.8, "output_per_1m": 2.0 },
+    "deepseek-chat": { "input_per_1m": 2.0, "output_per_1m": 8.0 }
+  },
+  "min_reserve": 1.0
+}

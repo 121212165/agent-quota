@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "quota-keeper": {
+      "command": "/usr/local/bin/quota",
+      "args": ["serve"],
+      "env": {
+        "DEEPSEEK_API_KEY": "sk-xxx"
+      }
+    }
+  }
+}
